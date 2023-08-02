@@ -1,0 +1,22 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#mainContainer { 
+    width: 20rem;
+    border: 1px solid black;
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+}
+.secondaryContainer, .imgContainer {
+ padding: 1rem;   
+}
