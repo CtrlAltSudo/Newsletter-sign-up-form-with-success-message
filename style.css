@@ -39,6 +39,17 @@ input {
     border-radius: 0.5rem;
     border: 1px grey solid;
 }
+
+.formErr {
+    border: 1px #c27b77 solid;
+    background-color: #ffe8e6;
+    color: red;
+}
+span {
+    display: none;
+    margin-left: 7rem;
+    color: red;
+}
 #email {
     padding-left: 1rem;
     width: 100%;
@@ -56,4 +67,5 @@ button {
     border-radius: 0.5rem;
     border: none;
     font-size: 0.8rem;
+    cursor: pointer;
 }
