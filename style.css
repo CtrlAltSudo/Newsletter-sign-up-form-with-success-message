@@ -18,6 +18,27 @@ main {
     background-color: white;
     border-radius: 2rem;
     justify-content: space-between;
+
+}
+#successContainer {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    max-width: 30rem;
+    border-radius: 2rem;
+    padding: 4rem;
+}
+#successContainer img{
+    width: 3.5rem;
+    
+}
+#successContainer h1 {
+    margin-bottom: 0;
+}
+
+#successContainer button {
+    margin-bottom: 0;
+    cursor: pointer;
 }
 .secondaryContainer {
     width: 45%;
