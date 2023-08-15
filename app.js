@@ -1,8 +1,6 @@
 const input = document.querySelector("input");
 const form = document.querySelector("form");
 
-
-
 form.addEventListener("submit", function (event) {
     event.preventDefault(); 
     if (input.value === ""){

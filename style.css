@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body {
     box-sizing: border-box;
@@ -51,9 +52,13 @@ main {
 .imgContainer {
     padding: 1.5rem 1.8rem 1.6rem 0;
 }
+li::marker {
+    list-style-image: url('/images/icon-success.svg');
+}
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    font-weight: 700;
 }
 input {
     height: 3rem;
@@ -77,8 +82,11 @@ form span {
 }
 form p {
     margin-bottom: 3px;
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 button {
+    height: 3.4rem;
     width: 100%;
     font-size: 1rem;
     padding: 1rem;
@@ -87,6 +95,10 @@ button {
     color: white;
     border-radius: 0.5rem;
     border: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
     cursor: pointer;
+    font-weight: 400;
 }
+
+
+
