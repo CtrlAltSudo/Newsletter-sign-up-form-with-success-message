@@ -52,10 +52,32 @@ main {
 .imgContainer {
     padding: 1.5rem 1.8rem 1.6rem 0;
 }
-li::marker {
-    list-style-image: url('/images/icon-success.svg');
-}
-
+/* chatGPT code start */
+ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 2;
+  }
+  
+  ul li {
+    padding-right: 20px; /* Add padding for the marker */
+    position: relative;
+  }
+  
+  ul li::before {
+    content: "";
+    background-image: url('/images/icon-success.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 20px; /* Adjust the width to match your icon size */
+    height: 20px; /* Adjust the height to match your icon size */
+    position: absolute;
+    left: -35px;
+    top: 5px;
+  }
+/*   chatGPT code end  */
 h1 {
     font-size: 3.5rem;
     font-weight: 700;
