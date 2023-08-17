@@ -75,7 +75,7 @@ ul {
   
   ul li::before {
     content: "";
-    background-image: url('/images/icon-success.svg');
+    background-image: url('./images/icon-success.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
