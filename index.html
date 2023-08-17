@@ -21,7 +21,7 @@
 <div id="mainContainer">
   <div class="secondaryContainer">
   <h1>Stay updated!</h1>
-  <p>Join 60,000+ product managers receiving monthly updates on:</p>
+  <p class="firstP">Join 60,000+ product managers receiving monthly updates on:</p>
 <ul>
 
 <li>Product discovery and building what matters</li>
@@ -31,17 +31,22 @@
 
 
 <form action="">
-  <p>Email Address<span>Valid Email Required</span></p>
+  <div class="formText">
+    <p>Email Address</p>
+  <p class="validEmailErr">Valid Email Required</p>
+  </div>
   <input type="email" name="" id="email" placeholder="email@company.com">
   <button> Subscribe to monthly newsletter</button> 
 </form>
 
 </div>
 <div class="imgContainer">
-  <img src="images/illustration-sign-up-desktop.svg" alt="sign up illustration" >
+  <img class="desktopImg" src="images/illustration-sign-up-desktop.svg" alt="sign up illustration">
+  <img class="mobileImg" src="images/illustration-sign-up-mobile.svg" alt="sign up illustration">
+
 </div>
 
-</div>e
+</div>
 <div id="successContainer">
   <img src="/images/icon-success.svg" alt="success icon">
   <h1>
@@ -50,7 +55,7 @@
   <p>  A confirmation email has been sent to <span class="successSpan"></span> 
     Please open it and click the button inside to confirm your subscription.</p>
 
-<button onclick="location.reload()">  Dismiss message</button>
+<button onclick="location.reload()">Dismiss message</button>
 
 </div>
 </main>
@@ -60,7 +65,7 @@
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">CtrlAltSudo</a>.
     </div>
   </footer>
 <script src="app.js"></script>
