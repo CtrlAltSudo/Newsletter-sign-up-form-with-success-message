@@ -1,6 +1,6 @@
 <h1 align="center">Newsletter sign-up form</h1>
 <p align="center"> <a align="center" href="https://ctrlaltsudo.github.io/Newsletter-sign-up-form-with-success-message/">Live Demo</a><p>
-<p align="center"> <a align="center" href="https://www.frontendmentor.io/solutions/article-preview-component-OLaOjnScXX">Solution Page</a><p>
+<p align="center"> <a align="center" href="https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv/hub?share=true">Solution Page</a><p>
 <h2 align="center">Project Screenshot<h2>
 <p align="center">
   <img src="./images/screenshot.png" alt="project screen shot"></img>
